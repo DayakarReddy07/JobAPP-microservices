@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="reviewms" />
         <module name="companyms" />
+        <module name="config-server" />
         <module name="jobms" />
         <module name="service-registry" />
       </profile>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="companyms" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="jobms" options="-parameters" />
       <module name="reviewms" options="-parameters" />
       <module name="service-registry" options="-parameters" />
