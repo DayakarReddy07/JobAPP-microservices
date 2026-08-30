@@ -1,5 +1,7 @@
 package com.microservices.companyms.company;
 
+import com.microservices.companyms.company.DTO.ReviewMessage;
+
 import java.util.List;
 
 
@@ -9,4 +11,5 @@ public interface CompanyService {
     void createCompany(Company company);
     boolean deleteCompany(Long id);
     Company getCompanyById(Long id);
+    void updateCompanyRating(ReviewMessage reviewMessage);
 }
